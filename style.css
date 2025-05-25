@@ -41,7 +41,6 @@ footer {
   margin-top: 2rem;
 }
 
-/* --- Card layout for research projects --- */
 
 .card-list {
   display: flex;
@@ -68,3 +67,35 @@ footer {
   margin: 0;
 }
 
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.card {
+  background-color: #f0f5ff; 
+  border: 1px solid #c3d3ee;
+  border-left: 6px solid #4a90e2; 
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #1a2b4c;
+}
+
+.card p {
+  margin: 0;
+  color: #333;
+}
