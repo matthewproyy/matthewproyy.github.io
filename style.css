@@ -1,9 +1,9 @@
 :root {
-  --bg-color: #F7F9F9;
-  --accent-color: #4CAF50;
+  --bg-color: #ECEFF1;
+  --accent-color: #455A64;
   --text-color: #000000;
-  --header-bg: #C1E1C1;
-  --header-text: #000000;
+  --header-bg: #607D8B;
+  --header-text: #ffffff;
 }
 
 body {
@@ -35,7 +35,7 @@ header {
 }
 
 nav a {
-  color: var(--accent-color);
+  color: #CFD8DC;
   margin: 0 1em;
   text-decoration: none;
 }
@@ -67,7 +67,7 @@ footer {
 
 .card {
   background-color: #ffffff;
-  border: 1px solid #bcd8c1;
+  border: 1px solid #B0BEC5;
   border-left: 6px solid var(--accent-color);
   border-radius: 8px;
   padding: 1.5em;
