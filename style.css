@@ -1,13 +1,11 @@
-/* Theme colors */
 :root {
   --bg-color: #e6f4ea;
   --accent-color: #4CAF50;
-  --text-color: #333;
-  --header-bg: #2d4d32;
-  --header-text: #ffffff;
+  --text-color: #000000;
+  --header-bg: #C1E1C1;
+  --header-text: #000000;
 }
 
-/* Global styles */
 body {
   font-family: sans-serif;
   margin: 0;
@@ -18,7 +16,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 
 a {
@@ -29,7 +27,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Header */
 header {
   background: var(--header-bg);
   color: var(--header-text);
@@ -38,7 +35,7 @@ header {
 }
 
 nav a {
-  color: #ccffcc;
+  color: var(--accent-color);
   margin: 0 1em;
   text-decoration: none;
 }
@@ -47,23 +44,20 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Main content area */
 main {
   padding: 2rem;
   max-width: 800px;
   margin: auto;
 }
 
-/* Footer */
 footer {
   background: #d4e8d6;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-  color: #222;
+  color: var(--text-color);
 }
 
-/* Card layout for research projects */
 .card-list {
   display: flex;
   flex-direction: column;
@@ -89,11 +83,10 @@ footer {
 .card h4 {
   margin-top: 0;
   margin-bottom: 0.5em;
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 
 .card p {
   margin: 0;
   color: var(--text-color);
 }
-
