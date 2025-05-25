@@ -30,7 +30,7 @@ main {
   margin: auto;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
   color: #222;
 }
 
@@ -41,7 +41,30 @@ footer {
   margin-top: 2rem;
 }
 
-.project-list li {
-  margin-bottom: 1.5em;
+/* --- Card layout for research projects --- */
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  margin-top: 1.5em;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 1.25em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: #222;
+}
+
+.card p {
+  margin: 0;
 }
 
