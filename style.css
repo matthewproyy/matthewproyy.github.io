@@ -40,3 +40,8 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
+.project-list li {
+  margin-bottom: 1.5em;
+}
+
