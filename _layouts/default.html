@@ -10,9 +10,9 @@
       header h1 { font-size: 40px; }
       header p { font-size: 18px; }
       header img.photo { width: 60%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; }
-      header .links a, header .links span { margin-right: 10px; }
+      header .links a { margin-right: 8px; }
       header .links a.icon svg { vertical-align: middle; }
-      header .links a.icon:hover circle:first-child { fill: #0a66c2; }
+      header .links a.icon:hover circle:first-child { fill: #267cb9; }
     </style>
   </head>
   <body>
@@ -24,11 +24,11 @@
         <h1>{{ site.title }}</h1>
         <p>{{ site.affiliation | default: site.description }}</p>
         <p class="links">
-          {% if site.email %}<span>{{ site.email }}</span>{% endif %}
+          {% if site.email %}<a class="icon" href="mailto:{{ site.email }}" aria-label="Email"><svg viewBox="0 0 24 24" width="25" height="25" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#727272"/><rect x="6" y="8" width="12" height="8.5" rx="0.8" fill="#fff"/><path d="M6.6 8.7 12 12.8l5.4-4.1" fill="none" stroke="#727272" stroke-width="1.2"/></svg></a>{% endif %}
           {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">GitHub</a>{% endif %}
           {% if site.linkedin_url != "" and site.linkedin_url %}<a class="icon" href="{{ site.linkedin_url }}" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="25" height="25" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#727272"/><circle cx="8.3" cy="7.6" r="1.4" fill="#fff"/><rect x="7.1" y="9.8" width="2.4" height="7.4" fill="#fff"/><path fill="#fff" d="M11.2 9.8h2.3v1c.4-.7 1.3-1.2 2.4-1.2 2.2 0 2.7 1.4 2.7 3.3v4.3h-2.4v-3.8c0-.9-.1-1.9-1.2-1.9s-1.4.9-1.4 1.9v3.8h-2.4z"/></svg></a>{% endif %}
           {% if site.twitter_url != "" and site.twitter_url %}<a href="{{ site.twitter_url }}">Twitter</a>{% endif %}
-          {% if site.cv %}<a href="{{ site.cv | relative_url }}">CV</a>{% endif %}
+          {% if site.cv %}<a class="icon" href="{{ site.cv | relative_url }}" aria-label="CV"><svg viewBox="0 0 24 24" width="25" height="25" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#727272"/><path d="M8 5.5h5.6l2.9 2.9v10.1H8z" fill="#fff"/><path d="M13.6 5.5v2.9h2.9z" fill="#c8c8c8"/><rect x="9.6" y="10.6" width="5.2" height="0.9" fill="#727272"/><rect x="9.6" y="12.8" width="5.2" height="0.9" fill="#727272"/><rect x="9.6" y="15" width="3.6" height="0.9" fill="#727272"/></svg></a>{% endif %}
         </p>
       </header>
       <section>
