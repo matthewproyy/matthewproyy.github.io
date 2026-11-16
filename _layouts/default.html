@@ -10,8 +10,6 @@
       h1 { font-size: 40px; }
       h2 { font-size: 30px; }
       p { font-size: 18px; }
-      header .nav a { margin-right: 12px; }
-      header .nav a.current { color: #222; }
       header img.photo { width: 60%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; }
       header .links a { margin-right: 8px; }
       header .links a.icon svg { vertical-align: middle; }
@@ -32,10 +30,6 @@
           {% if site.linkedin_url != "" and site.linkedin_url %}<a class="icon" href="{{ site.linkedin_url }}" aria-label="LinkedIn"><svg viewBox="0 0 24 24" width="25" height="25" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#000"/><circle cx="7.9" cy="7.1" r="1.7" fill="#fff"/><rect x="6.5" y="9.6" width="2.8" height="8.4" fill="#fff"/><path fill="#fff" d="M10.9 9.6h2.7v1.2c.5-.8 1.5-1.4 2.8-1.4 2.6 0 3.2 1.6 3.2 3.9V18h-2.8v-4.3c0-1-.1-2.2-1.4-2.2s-1.7 1-1.7 2.2V18h-2.8z"/></svg></a>{% endif %}
           {% if site.twitter_url != "" and site.twitter_url %}<a href="{{ site.twitter_url }}">Twitter</a>{% endif %}
           {% if site.cv %}<a class="icon" href="{{ site.cv | relative_url }}" aria-label="CV"><svg viewBox="0 0 24 24" width="25" height="25" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="#000"/><text x="12" y="16" text-anchor="middle" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="300" fill="#fff">CV</text></svg></a>{% endif %}
-        </p>
-        <p class="nav">
-          <a href="{{ "/" | relative_url }}"{% if page.url == "/" %} class="current"{% endif %}>About</a>
-          <a href="{{ "/research/" | relative_url }}"{% if page.url == "/research/" %} class="current"{% endif %}>Research</a>
         </p>
       </header>
       <section>
