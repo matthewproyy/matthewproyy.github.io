@@ -1,22 +1,18 @@
-# site settings: edit these
-title: Your Name
-description: PhD Student
+title: Matthew Proy
+description: Master's Student
 affiliation: |
-  PhD Student<br>Department of ...<br>Your University
+  Master's Student<br>University at Buffalo
 url: "https://matthewproyy.github.io"
 baseurl: ""
 
-# photo goes in assets/ (delete this line to hide it)
 logo: assets/me.jpg
 
-# links in the sidebar (delete any you don't want)
-email: you@university.edu
+email: mrproy2@buffalo.edu
 github_username: matthewproyy
 linkedin_url: ""
 twitter_url: ""
 cv: assets/cv.pdf
 
-# theme
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
