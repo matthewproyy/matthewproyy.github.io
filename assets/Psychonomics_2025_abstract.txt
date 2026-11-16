@@ -1,8 +1,0 @@
-What is the role of semantics in phonological encoding?
-
-Andrés Buxó-Lugo, The State University of New York at Buffalo
-Cassandra L. Jacobs, The State University of New York at Buffalo
-Sarah MacDougall, The State University of New York at Buffalo
-Matthew Proy, The State University of New York at Buffalo
-
-Word durations are an informative window into phonological encoding. For example, words tend to be lengthened when speakers have recently produced or heard a prime word that overlaps phonologically with a target, suggesting interference in the encoding process. Similarly, speech error data show that phonological encoding and semantic information interact, such that mixed errors are especially likely. However, it is unclear whether the same semantic information that influences speech errors can also modulate word durations. We test the predictions of a recurrent neural network model of phonological encoding that makes several novel predictions. First, counter to theories like the Facilitation Reduction Hypothesis, the model predicts that semantic similarity on its own does not impact word durations. Second, mixed semantic and phonological overlap produce even longer durations than phonological similarity alone. We present behavioral data from an event description task that tests this prediction.
