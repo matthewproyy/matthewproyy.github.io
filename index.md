@@ -16,6 +16,6 @@ My research interests broadly lie in the fields of <span style="color:#DC267F">m
 
 - 11/2026 - Poster at the 22nd Annual NeuroMusic Conference: *Context effects in the perception and vocal imitation of speech and song*. [[poster](/assets/Proy_NeuroMusic_Poster_v2.pdf)]
 - 7/2026 - Poster at the Society for Music Perception and Cognition Conference: *Phonetic constraints on pitch encoding along a speech-to-song continuum*. [[poster](/assets/MP_SMPC_Poster_v3.pdf)]
-- 5/2026 - We were awarded the Grammy Museum Foundation Grant for *Neural Correlates of Gendered Voice Perception in Singing: An fMRI Study of Transgender and Cisgender Singers*.
+- 5/2026 - The Auditory Perception and Action Lab was awarded the Grammy Museum Foundation Grant for our project *Neural Correlates of Gendered Voice Perception in Singing: An fMRI Study of Transgender and Cisgender Singers*.
 - 5/2026 - Poster at the 2026 APS Annual Convention: *Manipulations of pitch stability transform speech into song*. [[poster](/assets/MP_APS_BBSS_Poster_v3.pdf)]
 - 11/2025 - Poster at the Psychonomic Society's 66th Annual Meeting: *What is the role of semantics in phonological encoding?* [[abstract](/assets/psychonomics_abstract.pdf)]
