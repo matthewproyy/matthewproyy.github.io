@@ -4,7 +4,7 @@ layout: default
 
 ## About
 
-Hello! I am a PhD student in the [Department of ...](https://example.edu) at [Your University](https://example.edu), advised by [Advisor Name](https://example.edu).
+Hello! I am a Master's student in the Department of Psychology at the University at Buffalo.
 
 My research interests are ...
 
