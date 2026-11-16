@@ -1,31 +1,38 @@
----
-layout: compress
----
-
-{% include base_path %}
-
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+{% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style>
+      header img.photo { width: 60%; border-radius: 4px; }
+      header .links a { margin-right: 10px; }
+    </style>
   </head>
-
   <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
+    <div class="wrapper">
+      <header>
+        {% if site.logo %}
+          <img class="photo" src="{{ site.logo | relative_url }}" alt="{{ site.title }}" />
+        {% endif %}
+        <h1>{{ site.title }}</h1>
+        <p>{{ site.affiliation | default: site.description }}</p>
+        <p class="links">
+          {% if site.email %}<a href="mailto:{{ site.email }}">Email</a>{% endif %}
+          {% if site.github_username %}<a href="https://github.com/{{ site.github_username }}">GitHub</a>{% endif %}
+          {% if site.linkedin_url != "" and site.linkedin_url %}<a href="{{ site.linkedin_url }}">LinkedIn</a>{% endif %}
+          {% if site.twitter_url != "" and site.twitter_url %}<a href="{{ site.twitter_url }}">Twitter</a>{% endif %}
+          {% if site.cv %}<a href="{{ site.cv | relative_url }}">CV</a>{% endif %}
+        </p>
+      </header>
+      <section>
+      {{ content }}
+      </section>
       <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
-
-    {% include scripts.html %}
-
   </body>
 </html>
